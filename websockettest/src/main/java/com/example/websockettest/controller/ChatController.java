@@ -1,15 +1,10 @@
 package com.example.websockettest.controller;
 
-import com.example.websockettest.dto.ChatMessage;
-import com.example.websockettest.dto.ChatRoom;
-import com.example.websockettest.service.ChatService;
+import com.example.websockettest.model.ChatMessage;
 import lombok.RequiredArgsConstructor;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.simp.SimpMessageSendingOperations;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RequiredArgsConstructor
 @Controller
